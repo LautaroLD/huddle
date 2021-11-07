@@ -1,0 +1,36 @@
+footer {
+
+    padding: 0 50px 20px 0;
+    display: flex;
+    height: auto;
+    justify-content: flex-end;
+}
+.footer-icons-container {
+    display: flex;
+    height: auto;
+    width: auto;
+    gap: 10px;
+    align-items: center;
+    // .fb-icon {
+    //     width: auto;        
+    // }
+    a {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 5px;
+        width: 20px;
+        height: 25px;
+        border: 1px solid $claro;
+        border-radius: 50%;
+        text-decoration: none;
+        color: white;
+        &:hover {
+            filter: none;
+            background-color:transparentize($color: $claro, $amount: .5);
+        }
+        .bx {
+            font-size: 2.5rem;
+        }
+    }
+}
